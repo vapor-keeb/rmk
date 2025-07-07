@@ -14,7 +14,7 @@
     // "rust-analyzer.cargo.target": "thumbv7em-none-eabi",
     // "rust-analyzer.cargo.target": "thumbv7em-none-eabihf",
     // "rust-analyzer.cargo.target": "thumbv8m.main-none-eabihf",
-    // "rust-analyzer.cargo.target": "riscv32imc-unknown-none-elf", // for esp32c3
+    "rust-analyzer.cargo.target": "riscv32imc-unknown-none-elf", // for esp32c3
     // "rust-analyzer.cargo.target": "riscv32imac-unknown-none-elf", // for esp32c6
     "rust-analyzer.linkedProjects": [
         "rmk-macro/Cargo.toml",
@@ -38,7 +38,7 @@
         // "examples/use_config/stm32f1/Cargo.toml",
         // "examples/use_config/stm32f4/Cargo.toml",
         // "examples/use_config/stm32h7/Cargo.toml",
-        // "examples/use_rust/ch32v307/Cargo.toml",
+        "examples/use_rust/ch32v307/Cargo.toml",
         // "examples/use_rust/esp32c3_ble/Cargo.toml",
         // "examples/use_rust/esp32c6_ble/Cargo.toml",
         // "examples/use_rust/esp32s3_ble/Cargo.toml",

@@ -1,0 +1,1438 @@
+[INFO ]    <file>:0   : rmk
+0x31 0x5 reg: 0b1111011
+0x31 0x03 reg: 0b1000111
+0x21 0x5 reg: 0b1111011
+0x21 0x03 reg: 0b10010
+[INFO ]    <file>:0   : USB: config_descriptor used: 122
+[INFO ]    <file>:0   : USB: bos_descriptor used: 12
+[INFO ]    <file>:0   : USB: msos_descriptor used: 0
+[INFO ]    <file>:0   : USB: control_buf size: 128
+[TRACE]    <file>:0   : usb: power detected
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, Out: Set enable=false
+[INFO ]    <file>:0   : Device enabled
+[TRACE]    <file>:0   : usb: suspend
+[INFO ]    <file>:0   : Device suspended, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : endpoint 5 OUT
+[ERROR]    <file>:0   : OUT disabled EP
+[ERROR]    <file>:0   : Process vial error: UsbReadError(Disabled)
+[TRACE]    <file>:0   : endpoint 2 OUT
+[ERROR]    <file>:0   : OUT disabled EP
+[ERROR]    <file>:0   : Read led error UsbReadError(Disabled)
+[TRACE]    <file>:0   : usb: resume
+[INFO ]    <file>:0   : Device resumed, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : bus: reset
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, Out: Set enable=false
+[TRACE]    <file>:0   : usb: reset
+[INFO ]    <file>:0   : Bus reset, the Vbus current limit is 100mA
+[TRACE]    <file>:0   : usb: suspend
+[INFO ]    <file>:0   : Device suspended, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : usb: resume
+[INFO ]    <file>:0   : Device resumed, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 256, index: 0, length: 64 }
+[TRACE]    <file>:0   : bus: reset
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 6, Out: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, In: Set enable=false
+[TRACE]    <file>:0   : [USBFS] Endpoint: 7, Out: Set enable=false
+[TRACE]    <file>:0   : usb: reset
+[INFO ]    <file>:0   : Bus reset, the Vbus current limit is 100mA
+[TRACE]    <file>:0   : usb: suspend
+[INFO ]    <file>:0   : Device suspended, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : usb: resume
+[INFO ]    <file>:0   : Device resumed, the Vbus current limit is 500µA (or 2.5mA for high-power devices with remote wakeup enabled).
+[TRACE]    <file>:0   : control request: Request { direction: Out, request_type: Standard, recipient: Device, request: 5, value: 58, index: 0, length: 0 }
+[TRACE]    <file>:0   :   control out data: []
+[INFO ]    <file>:0   : USB address set to: 58
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 256, index: 0, length: 18 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 3840, index: 0, length: 5 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 3840, index: 0, length: 12 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 1536, index: 0, length: 10 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 512, index: 0, length: 9 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 512, index: 0, length: 122 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 768, index: 0, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 770, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 769, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 771, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: Out, request_type: Standard, recipient: Device, request: 9, value: 1, index: 0, length: 0 }
+[TRACE]    <file>:0   :   control out data: []
+[DEBUG]    <file>:0   : SET_CONFIGURATION: configured
+[TRACE]    <file>:0   : [USBFS] Endpoint: 1, In: Set enable=true
+[TRACE]    <file>:0   : [USBFS] Endpoint: 2, Out: Set enable=true
+[TRACE]    <file>:0   : [USBFS] Endpoint: 3, In: Set enable=true
+[TRACE]    <file>:0   : [USBFS] Endpoint: 4, In: Set enable=true
+[TRACE]    <file>:0   : [USBFS] Endpoint: 5, Out: Set enable=true
+[INFO ]    <file>:0   : Device configured, it may now draw up to the configured current from Vbus.
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 771, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 0, length: 0 }
+[TRACE]    <file>:0   :   control out data: []
+[TRACE]    <file>:0   : HID control_out Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 0, length: 0 } []
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Interface, request: 6, value: 8704, index: 0, length: 67 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 771, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 1, length: 0 }
+[TRACE]    <file>:0   :   control out data: []
+[TRACE]    <file>:0   : HID control_out Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 1, length: 0 } []
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Interface, request: 6, value: 8704, index: 1, length: 111 }
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Device, request: 6, value: 771, index: 1033, length: 255 }
+[TRACE]    <file>:0   : control request: Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 2, length: 0 }
+[TRACE]    <file>:0   :   control out data: []
+[TRACE]    <file>:0   : HID control_out Request { direction: Out, request_type: Class, recipient: Interface, request: 10, value: 0, index: 2, length: 0 } []
+[TRACE]    <file>:0   : control request: Request { direction: In, request_type: Standard, recipient: Interface, request: 6, value: 8704, index: 2, length: 27 }
+[TRACE]    <file>:0   : endpoint 2 OUT
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  No to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 5 OUT
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 2 OUT
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp8(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp8 to Kp7(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp8)), KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp8))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp8), KeyEvent { row: 0, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp7 to Kp9(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp9)), KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp9))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp9), KeyEvent { row: 0, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp7)), KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp7))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp7), KeyEvent { row: 0, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 0, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp9 to Kp5(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp5 to Kp6(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp6 to Kp4(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp6)), KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp6))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp6), KeyEvent { row: 1, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp5)), KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp5))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp5), KeyEvent { row: 1, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp4)), KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp4))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp4), KeyEvent { row: 1, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 1, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp4 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp3 to Kp2(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp2 to Kp1(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp2)), KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp2))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp2), KeyEvent { row: 2, col: 1, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 1, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp1)), KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp1))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp1), KeyEvent { row: 2, col: 0, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 0, pressed: false }
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=true, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: true }
+[DEBUG]    <file>:0   : Last key code changed from  Kp1 to Kp3(pressed: true)
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Process key action after combo processing: Single(Key(Kp3)), KeyEvent { row: 2, col: 2, pressed: false }
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] tap_hold_decision[0m: permissive=false, is_tap_hold_buffered=false, is_pressed=false, action=Single(Key(Kp3))
+[DEBUG]    <file>:0   : [34m[TAP-HOLD] --> decision is [0m: Ignore
+[DEBUG]    <file>:0   : Process Single key action: Key(Kp3), KeyEvent { row: 2, col: 2, pressed: false }
+[TRACE]    <file>:0   : endpoint 1 IN
+[DEBUG]    <file>:0   : Record released key event: KeyEvent { row: 2, col: 2, pressed: false }
